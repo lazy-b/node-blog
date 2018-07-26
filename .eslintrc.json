@@ -1,3 +1,25 @@
 {
-    "extends": "standard"
+  "extends": "standard",
+  "rules": {
+    "semi": [
+      1,
+      "always",
+      {
+        "omitLastInOneLineBlock": true
+      }
+    ],
+    "indent": [
+      1,
+      2
+    ],
+    "comma-dangle": [
+      0,
+      "always-multiline"
+    ],
+    "no-mixed-spaces-and-tabs": 2,
+    "quotes": [
+      2,
+      "single"
+    ]
+  }
 }
